@@ -1,0 +1,13 @@
+# RL stack
+stable-baselines3[extra]>=2.3.0   # PPO + TensorBoard support
+gymnasium>=0.29.0
+
+# Drone simulator
+git+https://github.com/utiasDSL/gym-pybullet-drones.git
+pybullet
+
+# Utilities
+numpy
+matplotlib
+tensorboard                         # theo dõi training curves
+tqdm                                # progress bar cho model.learn()
